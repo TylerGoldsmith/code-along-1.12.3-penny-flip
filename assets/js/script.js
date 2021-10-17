@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', function () {
     let flippedHeads = Math.random() < 0.5
 
 if (flippedHeads)   {
-    document.getElementById('penny-image').src = assets/images/penny-heads.jpg
+    document.getElementById('penny-image').src = "assets/images/penny-heads.jpg"
     document.getElementById('message').textContent = 'You Flippled Heads!'
 // Add to heads count 
     headsRolls += 1
 }
 
 else                {
-    document.getElementById('penny-image').src = assets/images/penny-tails.jpg
+    document.getElementById('penny-image').src = "assets/images/penny-tails.jpg"
     document.getElementById('message').textContent = 'You Flippled Tails!'
 // Add to tails count 
     tailsRolls += 1
